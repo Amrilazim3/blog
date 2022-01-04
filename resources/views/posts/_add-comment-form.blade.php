@@ -10,9 +10,7 @@
             </header>
 
             <div class="mt-6">
-                <textarea name="body" class="w-full text-sm focus:outline-none focus:ring" rows="5"
-                    placeholder="Quick, think about something to say!" required>
-                </textarea>
+                <textarea name="body" class="w-full text-sm focus:outline-none focus:ring" rows="5" placeholder="Quick, think about something to say!" required></textarea>
 
                 @error('body')
                     <span class="text-xs text-red-500">{{ $message }}</span>
