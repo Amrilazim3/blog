@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## This website is build from [blog-markup] (https://github.com/Amrilazim3/blog-markup)  design
+## This website is build from (https://github.com/Amrilazim3/blog-markup "blog-markup")  design
 
 ## About Laravel
 
