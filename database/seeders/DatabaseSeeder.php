@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         if (! Storage::exists('thumbnails/dummy.png')) 
-            Storage::disk('local')->copy('dummy.png', 'public/thumbnails/dummy.png');
+            Storage::disk('local')->copy('dummy.jpg', 'public/thumbnails/dummy.png');
 
         Post::factory(30)->create();
     }
